@@ -1,5 +1,5 @@
-import { Maincontent } from "./components/Maincontent";
-import { Sidebar } from "./components/Sidebar";
+import MainContent from "./components/MainContent";
+import Sidebar from "./components/Sidebar";
 
 import "./styles/components/app.sass";
 
@@ -8,7 +8,7 @@ function App() {
     <div id="portfolio">
       <h1>José N'donge</h1>
       <Sidebar />
-      <Maincontent />
+      <MainContent />
     </div>
   );
 }
